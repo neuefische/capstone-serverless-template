@@ -67,7 +67,7 @@ We only need it for the "Preview" Environment, but you can add it to both (see s
 **Run the development server:**
 
 ```bash
-npm run dev
+npm run start
 ```
 
 **Run storybook:**
