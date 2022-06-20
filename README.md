@@ -6,9 +6,7 @@ This is a template for a [Create React App](https://create-react-app.dev/) with 
 
 - [Tech-Stack](#tech-stack)
 - [Getting started](#getting-started)
-- [Behavior Driven Development](#behavior-driven-development)
 - [Test Driven Development](#test-driven-development)
-- [Commitlint](#commitlint)
 - [Commands](#commands)
 - [Skipping linters](#skipping-linters)
 
@@ -18,9 +16,7 @@ It uses the following tools/libraries:
 
 ## Tech-Stack
 * [Storybook](https://storybook.js.org/)
-* [Cypress](https://cypress.io/)
 * [Jest](https://jestjs.io/)
-* [Commitlint](https://commitlint.js.org/)
 * [Stylelint](https://stylelint.io/)
 * [Eslint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
@@ -80,11 +76,6 @@ npm run dev
 npm run storybook
 ```
 
-## Behavior Driven Development
-
-We use behavior tests. You can read more about our decision in the
-[documentation](./docs/BEHAVIOR_DRIVEN_DEVELOPMENT.md).
-
 ## Test Driven Development
 
 We jest to write unit tests. Please look at the Documentation for [Jest](https://jestjs.io/)
@@ -122,14 +113,6 @@ npm run storybook
 npm run storybook:build
 ```
 
-**Run e2e tests:**
-
-```shell
-npm run cypress # local without server
-# npm run cypress:run # headless
-# npm run test:e2e # with server
-```
-
 **Run unit tests:**
 
 ```shell
@@ -160,17 +143,4 @@ npm run eslint
 
 ```shell
 npm run lint
-```
-
-## Skipping linters
-
-If you need to skip a linter you can add the `--no-verify` flag.
-
-> Warning! We strongly advise against skipping linters.
-
-```shell
-# Skipping commitlint
-git commit README.md -m "this is a dirty commit" --no-verify
-# Skipping linters
-git push --no-verify
 ```
