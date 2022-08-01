@@ -1,5 +1,6 @@
 /**
- * Appends the rem unit suffix to a number
+ * Appends the rem unit suffix to a number.
+ *
  * @param {number} n
  * @return {string}
  * @example

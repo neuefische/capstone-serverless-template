@@ -1,8 +1,14 @@
 import Button from './';
 
-export function Default() {
-	return <Button>Button</Button>;
+function Template({children, ...args}) {
+	return <Button {...args}>{children}</Button>;
 }
+
+export const Default = Template.bind({});
+
+Default.args = {
+	children: 'Button',
+};
 
 const story = {
 	title: 'Button',
