@@ -11,7 +11,6 @@ This is a template for a [Create React App](https://create-react-app.dev/) with 
         -   [Storybook](#storybook)
 -   [Getting started](#getting-started)
 -   [Test Driven Development](#test-driven-development)
--   [Commitlint](#commitlint)
 -   [Commands](#commands)
 
 <!-- tocstop -->
@@ -70,7 +69,7 @@ npm run storybook
 
 ## Test Driven Development
 
-We jest to write unit tests. Please look at the Documentation for [Jest](https://jestjs.io/)
+We use jest to write unit tests. Please look at the Documentation for [Jest](https://jestjs.io/)
 and [testing-library](https://testing-library.com/docs/react-testing-library/intro/).
 
 ## Commands
